@@ -1,3 +1,8 @@
-* {
-    font-size: large;
+div {
+    max-width: fit-content;
+    margin: 250px auto;
+}
+
+#LandingPage {
+    background-color: blueviolet;
 }
