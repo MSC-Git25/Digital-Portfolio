@@ -2,10 +2,19 @@
 /* CSS Document */
 
 body {
-    margin: 0;
-    height: 100vh;
-    background-image: url('images/Yr11 Environment/Environment.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+	margin: 0;
+}
+
+#Landing {
+  /* The image used */
+  background-image: url("images/TestBG.png");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
