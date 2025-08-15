@@ -1,8 +1,6 @@
-div {
-    max-width: fit-content;
-    margin: 250px auto;
-}
+@charset "utf-8";
+/* CSS Document */
 
-#LandingPage {
-    background-color: blueviolet;
+#Landing {
+	background-image: 
 }
