@@ -1,8 +1,19 @@
+h1, body {
+    margin: 0;
+}
+
 div {
-    max-width: fit-content;
-    margin: 250px auto;
+    height: 100vh;
+}
+
+#heading {
+    text-align: center;
+    padding: 40vh 0;
+    font-size: 8em;
+    color: white;
 }
 
 #LandingPage {
-    background-color: blueviolet;
+    background-image: url("images/Yr11 Environment/IslandEnv.png");
+    background-attachment: fixed;
 }
