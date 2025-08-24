@@ -1,4 +1,4 @@
-h1, body {
+/*h1, body {
     margin: 0;
 }
 
@@ -16,4 +16,32 @@ div {
 #LandingPage {
     background-image: url("images/Yr11 Environment/IslandEnv.png");
     background-attachment: fixed;
+}*/
+
+.sidebar {
+  position: fixed;
+  left: -250px; /* hidden to the left */
+  top: 0;
+  width: 250px;
+  height: 100%;
+  background: #111;
+  padding-top: 60px;
+  transition: left 0.3s;
 }
+
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  background: #575757;
+}
+
+/* When active, sidebar slides in */
+.sidebar.active {
+  left: 0;
+}
+
