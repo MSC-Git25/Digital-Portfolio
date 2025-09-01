@@ -1,4 +1,4 @@
-/*h1, body {
+h1, body {
     margin: 0;
 }
 
@@ -6,7 +6,8 @@ div {
     height: 100vh;
 }
 
-#heading {
+/* Landing Page */
+#landingPage-title {
     text-align: center;
     padding: 40vh 0;
     font-size: 8em;
@@ -16,32 +17,76 @@ div {
 #LandingPage {
     background-image: url("images/Yr11 Environment/IslandEnv.png");
     background-attachment: fixed;
-}*/
-
-.sidebar {
-  position: fixed;
-  left: -250px; /* hidden to the left */
-  top: 0;
-  width: 250px;
-  height: 100%;
-  background: #111;
-  padding-top: 60px;
-  transition: left 0.3s;
 }
 
-.sidebar a {
-  display: block;
+/* Projects */
+#projects-title{
+    padding: 100px 0;
+    font-size: 4em;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Inserted from w3 */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+  height: 25vh;
+}
+
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding-left: 40%;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE 10 */
+  flex: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
   color: white;
-  padding: 10px 20px;
-  text-decoration: none;
 }
 
-.sidebar a:hover {
-  background: #575757;
+#projects-description{
+    position: sticky;
+    width: 40%;
+    top: 0;
+    padding: 50px;
+    font-size: 20px;
 }
-
-/* When active, sidebar slides in */
-.sidebar.active {
-  left: 0;
-}
-
