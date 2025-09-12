@@ -2,13 +2,7 @@ h1, body {
     margin: 0;
 }
 
-#Landing {
-  /* The image used */
-  background-image: url("images/TestBG.png");
-
-  /* Set a specific height */
-  min-height: 500px; 
-
+#LandingPage {
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -18,23 +12,23 @@ h1, body {
 
 /* Landing Page */
 #landingPage-title {
-    text-align: center;
-    padding: 40vh 0;
-    font-size: 8em;
-    color: white;
+  text-align: center;
+  padding: 40vh 0;
+  font-size: 8em;
+  color: white;
 }
 
 #LandingPage {
-    background-image: url("images/Yr11 Environment/IslandEnv.png");
-    background-attachment: fixed;
+  background-image: url("images/Yr11 Environment/IslandEnv.png");
+  background-attachment: fixed;
 }
 
 /* Projects */
 #projects-title{
-    padding: 100px 0;
-    font-size: 4em;
-    text-align: center;
-    font-weight: bold;
+  padding: 100px 0;
+  font-size: 4em;
+  text-align: center;
+  font-weight: bold;
 }
 
 /* Inserted from w3 */
@@ -94,9 +88,9 @@ body {
 }
 
 #projects-description{
-    position: sticky;
-    width: 40%;
-    top: 0;
-    padding: 50px;
-    font-size: 20px;
+  position: sticky;
+  width: 40%;
+  top: 0;
+  padding: 50px;
+  font-size: 20px;
 }
