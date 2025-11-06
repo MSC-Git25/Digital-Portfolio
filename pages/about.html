@@ -3,12 +3,27 @@
 	<head>
 		<meta charset="utf-8">
 		<title>About</title>
+		<link rel="stylesheet" href="../style.css">
 	</head>
 	<body>
 		<div id="About">
-            <p>My name is Connor Gane, I was raised in Mildura, Victoria my whole life. Ever since I was a kid</p>
+			<h2 id="about-me-heading">About Connor</h2>
+            <p id="about-me">I'm Connor Gane. Three years at KFC taught me to run shifts while the fryers explode and lines snake out the front door.
+				That same grit fuels my self taught stack: Autodesk Maya(modelling/rigging) + VS Code (Python/C#) on an Arch linux rig with pixel perfect Hyprland configs.
+				I make indie games in raylib, powerful prototypes in pygame, and debug before coffee. Year 12 sparked it; curiosity did the rest. 
+				Ready to deliver clean 3D assets or custom tools to your pipeline, starting day one.
+			</p>
 			<a href="../index.html">Return To Main</a>
 		</div>
-		<div id="Contact"></div>
+		<hr id="contact-seperator">
+		<div id="Contact">
+			<form>
+				<label for="fname">First Name</label><br>
+				<input type="text" id="fname" name="fname"><br>
+				<label for="lname">Last Name</label><br>
+				<input type="text" id="lname" name="lname"><br>
+				<input type="submit" value="Submit">
+			</form>
+		</div>
 	</body>
 </html>
